@@ -4,6 +4,6 @@ import preact from '@astrojs/preact';
 // https://astro.build/config
 export default defineConfig({
   integrations: [preact()],
-  site: "https://ridhof.github.io",
-  base: "/ridho.one",
+  site: "https://ridho.one",
+  base: "/",
 });
