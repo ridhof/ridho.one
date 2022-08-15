@@ -1,0 +1,53 @@
+---
+import MainHead from '../components/MainHead.astro';
+import Footer from '../components/Footer/index.jsx';
+import Nav from '../components/Nav/index.jsx';
+---
+
+<html lang="en">
+	<head>
+		<MainHead title="Financial Aid Program | Ridho Febriansa" description="Financial Aid Program Ridho Febriansa Lorem Ipsum" />
+		<style lang="scss">
+			.heroImg {
+				max-height: 24rem;
+				object-fit: cover;
+				overflow: hidden;
+
+				img {
+					width: 100%;
+				}
+			}
+
+			.bio {
+				font-size: var(--f-u1);
+				line-height: 2;
+			}
+		</style>
+	</head>
+	<body>
+		<Nav />
+		<div class="wrapper">
+			<h1>Financial Aid Program </h1>
+			<div class="heroImg">
+				<img
+					width="800"
+					height="350"
+					src="https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=800&h=350&q=75"
+				/>
+			</div>
+			<div class="bio wrapper wrapper__readable mt8">
+        <iframe 
+          src="https://docs.google.com/forms/d/e/1FAIpQLScKjh9i5yKTTgGp1Fw93E5Mx6WQW0-7MKgoXI7xXvJwU0VSPA/viewform?embedded=true" 
+          width="100%" 
+          height="2080" 
+          frameborder="0" 
+          marginheight="0" 
+          marginwidth="0"
+        >
+          Loading…
+        </iframe>
+			</div>
+		</div>
+		<Footer />
+	</body>
+</html>
