@@ -6,4 +6,5 @@ export default defineConfig({
   integrations: [preact()],
   site: "https://ridho.one",
   base: "/",
+  output: "server",
 });

@@ -2,6 +2,9 @@
 import MainHead from '../components/MainHead.astro';
 import Footer from '../components/Footer/index.jsx';
 import Nav from '../components/Nav/index.jsx';
+
+export const prerender = true;
+return Astro.redirect('https://fbrns.co/financial-aid');
 ---
 
 <html lang="en">

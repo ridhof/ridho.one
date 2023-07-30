@@ -4,8 +4,11 @@ import MainHead from '../components/MainHead.astro';
 import Nav from '../components/Nav/index.jsx';
 import Footer from '../components/Footer/index.jsx';
 
+export const prerender = true;
+
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
+return Astro.redirect('https://fbrns.co');
 ---
 
 <html lang="en">
